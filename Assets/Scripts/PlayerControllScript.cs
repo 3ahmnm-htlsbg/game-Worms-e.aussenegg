@@ -6,7 +6,7 @@ public class PlayerControllScript : MonoBehaviour
 {
     public float speed = 18;
 
-    private Rigidbody rb;
+    private Rigidbody rig;
 
     public void Start()
     {

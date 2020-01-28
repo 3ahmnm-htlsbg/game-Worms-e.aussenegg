@@ -4,25 +4,11 @@ using UnityEngine;
 
 public class WormController : MonoBehaviour
 {
-    public int x;
-    public string text;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (x > 10)
+   public void Update()
+   {
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            Debug.Log("x ist größer als 10");
+            Debug.Log("Player moves Up!");
         }
-        else
-        {
-            Debug.Log("x ist kleiner als 10");
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   }
 }
