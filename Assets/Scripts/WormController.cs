@@ -69,6 +69,5 @@ public class WormController : MonoBehaviour
                 rbProjectile.AddForce(BazookaB.transform.up * 400f);
             }
         }
-       
     }
 }

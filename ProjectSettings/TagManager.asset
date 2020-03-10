@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PlayerA
   - PlayerB
+  - Bullet
+  - Health
   layers:
   - Default
   - TransparentFX
