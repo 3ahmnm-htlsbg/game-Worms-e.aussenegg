@@ -8,6 +8,7 @@ TagManager:
   - PlayerB
   - Bullet
   - Health
+  - Healthmanager
   layers:
   - Default
   - TransparentFX

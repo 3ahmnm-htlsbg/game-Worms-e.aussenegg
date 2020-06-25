@@ -3,7 +3,15 @@ guid: 1d4931b6354afc346a445e508ea3ecd6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PlayerA: {fileID: -927199367670048503, guid: a5350c7c5f56ad740bb7a77b20fadbee,
+      type: 3}
+  - PlayerB: {instanceID: 0}
+  - projectile: {instanceID: 0}
+  - spawnCubeA: {instanceID: 0}
+  - BazookaA: {instanceID: 0}
+  - spawnCubeB: {instanceID: 0}
+  - BazookaB: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -30,15 +30,15 @@ public class WormController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A))
             {
-                rbA.AddForce(-2.5f, 0f, 0f, ForceMode.Impulse);
+                rbA.AddForce(-1.5f, 0f, 0f, ForceMode.Impulse);
             }
             if (Input.GetKey(KeyCode.D))
             {
-                rbA.AddForce(2.5f, 0f, 0f, ForceMode.Impulse);
+                rbA.AddForce(1.5f, 0f, 0f, ForceMode.Impulse);
             }
             if (Input.GetKey(KeyCode.W))
             {
-                rbA.AddForce(0f, 2.5f, 0f, ForceMode.Impulse);
+                rbA.AddForce(0f, 1.5f, 0f, ForceMode.Impulse);
             }
             if (Input.GetKeyDown(KeyCode.Q))
             {
